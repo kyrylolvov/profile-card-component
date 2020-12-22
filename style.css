@@ -6,8 +6,8 @@ body {
 }
 
 .profileCard {
-  max-width: 375px;
-  margin: 130px auto;
+  max-width: 350px;
+  margin: 150px auto;
   background-color: white;
   border-radius: 20px;
   text-align: center;
@@ -67,6 +67,7 @@ body {
 .statsNumber {
   font-weight: 700;
   color: #2d3248;
+  margin-top: 30px;
   margin-bottom: 0px;
 }
 
@@ -75,6 +76,7 @@ body {
   font-weight: 400;
   margin-top: 5px;
   font-size: 14px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1064px) {
