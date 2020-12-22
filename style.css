@@ -1,5 +1,113 @@
 body {
+  font-family: "Kumbh Sans", sans-serif;
   background: url("../images/bg-pattern-top.svg") top -600px left -300px no-repeat fixed, url("../images/bg-pattern-bottom.svg") bottom -600px right -200px no-repeat fixed;
   background-color: #19a2ae;
+  font-size: 18px;
+}
+
+.profileCard {
+  max-width: 375px;
+  margin: 130px auto;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.profileHead {
+  background: url(images/bg-pattern-card.svg);
+  height: 150px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.profilePhoto {
+  width: 100px;
+  border: 5px solid white;
+  border-radius: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+
+.upperInfo {
+  margin: 65px auto 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 135px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.name {
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.age {
+  color: #969696;
+  font-weight: 400;
+}
+
+.location {
+  margin-top: 0px;
+  color: #969696;
+  font-weight: 400;
+}
+
+.stats {
+  border-top: 2px solid #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.statsNumber {
+  font-weight: 700;
+  color: #2d3248;
+  margin-bottom: 0px;
+}
+
+.statsName {
+  color: #969696;
+  font-weight: 400;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 1064px) {
+  .profileCard {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    max-width: 330px;
+  }
+  body {
+    background: url("../images/bg-pattern-top.svg") top -600px left -700px no-repeat fixed, url("../images/bg-pattern-bottom.svg") bottom -600px right -600px no-repeat fixed;
+    background-color: #19a2ae;
+  }
+}
+
+@media (max-width: 425px) {
+  .profileCard {
+    margin-top: 100px;
+    max-width: 330px;
+  }
+  body {
+    background: url("../images/bg-pattern-top.svg") top -700px left -700px no-repeat fixed, url("../images/bg-pattern-bottom.svg") bottom -700px right -600px no-repeat fixed;
+    background-color: #19a2ae;
+  }
+}
+
+@media (max-width: 320px) {
+  .profileCard {
+    margin-top: 100px;
+    max-width: 290px;
+  }
+  body {
+    background: url("../images/bg-pattern-top.svg") top -700px left -800px no-repeat fixed, url("../images/bg-pattern-bottom.svg") bottom -700px right -700px no-repeat fixed;
+    background-color: #19a2ae;
+  }
 }
 /*# sourceMappingURL=style.css.map */
